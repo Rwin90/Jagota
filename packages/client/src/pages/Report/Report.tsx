@@ -1,10 +1,10 @@
 import { FC, useEffect, useState } from "react";
-import { Footer } from "../components/Footer/Footer";
-import { Filter } from "../components/Filter/Filter";
+import { Footer } from "../../components/Footer/Footer";
+import { Filter } from "../../components/Filter/Filter";
 import cntl from "cntl";
-import { DataTable } from "../components/DataTable";
-import sort from "../swap.png";
-import { ReportData, Summery } from "../types";
+import { DataTable } from "../../components/DataTable";
+import sort from "../../swap.png";
+import { ReportData, Summery } from "../../types";
 import { columns } from "./column";
 const classes = {
   container: cntl`

@@ -1,8 +1,8 @@
 import { DataType } from "ka-table";
-import { IColumn } from "../components/DataTable";
-import { BlueCell } from "../components/DataTable/BlueCell";
-import { BudgetCell } from "../components/DataTable/BudgetCell";
-import { PercentCell } from "../components/DataTable/PercentCell";
+import { IColumn } from "../../components/DataTable";
+import { BlueCell } from "../../components/DataTable/BlueCell";
+import { BudgetCell } from "../../components/DataTable/BudgetCell";
+import { PercentCell } from "../../components/DataTable/PercentCell";
 
 export const columns: IColumn[] = [
   {

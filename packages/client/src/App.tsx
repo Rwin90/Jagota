@@ -1,6 +1,6 @@
 import cntl from "cntl";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Report } from "./pages/Report";
+import { Report } from "./pages/Report/Report";
 
 const classes = {
   continer: cntl`
