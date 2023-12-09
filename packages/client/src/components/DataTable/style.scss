@@ -1,0 +1,21 @@
+.table {
+  @import "./override.scss";
+  @import "ka-table/style.scss";
+
+  & tbody td {
+    font-weight: bold;
+  }
+
+  & thead th {
+    text-wrap: nowrap;
+  }
+
+  & tbody tr:nth-child(4n + 1) {
+    background-color: #e9ecef;
+    border-top-color: #bcc4cd;
+  }
+  & tbody tr:nth-child(4n + 2) {
+    background-color: #e9ecef;
+    border-bottom-color: #bcc4cd;
+  }
+}
